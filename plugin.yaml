@@ -1,5 +1,5 @@
 name: "scan2html"
-version: "0.4.2"
+version: "0.4.3"
 maintainer: anill1
 repository: github.com/anill1/scan2html
 summary: A Trivy plugin that scans and outputs the results to a single page app.
@@ -10,8 +10,8 @@ description: |-
 platforms:
   - selector:
       os: windows
-    uri: https://github.com/anill1/scan2html/releases/download/v0.4.2/scan2html.tar.gz
+    uri: https://github.com/anill1/scan2html/releases/download/v0.4.3/scan2html.tar.gz
     bin: ./scan2html.sh
   -
-    uri: https://github.com/anill1/scan2html/releases/download/v0.4.2/scan2html.tar.gz
+    uri: https://github.com/anill1/scan2html/releases/download/v0.4.3/scan2html.tar.gz
     bin: ./scan2html.sh
