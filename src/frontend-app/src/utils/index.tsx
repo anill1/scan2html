@@ -471,6 +471,7 @@ function mapMisconfigurationResults(results: CommonResult[]): NormalizedResultFo
             Title: misconfiguration.Title,
             Type: misconfiguration.Type,
             Message: misconfiguration.Message,
+            References: misconfiguration.References[0]
           } as NormalizedResultForDataTable);
         });
       }
