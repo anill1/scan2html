@@ -176,12 +176,9 @@ const Vulnerabilities: React.FC<VulnerabilitiesProps> = ({ result }) => {
     },
     {
       title: 'Title',
-      dataIndex: 'Title',
-      key: 'Title',
-      width: '15%',
-      ...getColumnSearchProps('Title'),
-      sorter: (a: NormalizedResultForDataTable, b: NormalizedResultForDataTable) => localeCompare(a.Title, b.Title),
-      sortDirections: ['descend', 'ascend'],
+      dataIndex: 'References',
+      key: 'References',
+      width: '15%'
     },
   ];
 
