@@ -175,7 +175,7 @@ const Vulnerabilities: React.FC<VulnerabilitiesProps> = ({ result }) => {
       sortDirections: ['descend', 'ascend'],
     },
     {
-      title: 'Title test',
+      title: 'Solution / Result',
       dataIndex: 'PrimaryURL',
       key: 'PrimaryURL',
       width: '15%',
