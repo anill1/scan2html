@@ -12,7 +12,7 @@ export class NormalizedResultForDataTable {
   Type: string = "";
   Message?: string;
   IsVulnerability?: boolean;
-  References? : string;
+  PrimaryURL? : string;
 
   // Secrets
   Category?: string;
