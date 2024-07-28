@@ -176,9 +176,10 @@ const Vulnerabilities: React.FC<VulnerabilitiesProps> = ({ result }) => {
     },
     {
       title: 'Title test',
-      dataIndex: 'References',
-      key: 'References',
-      width: '15%'
+      dataIndex: 'PrimaryURL',
+      key: 'PrimaryURL',
+      width: '15%',
+      render: (text: string) => <a href={text} target="_blank" rel="noopener noreferrer">{text}</a>
     },
   ];
 
