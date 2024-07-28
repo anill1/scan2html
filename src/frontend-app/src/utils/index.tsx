@@ -181,7 +181,7 @@ function mapVulnerabilityResults(results: CommonResult[]): NormalizedResultForDa
           FixedVersion: vulnerability.FixedVersion,
           Title: vulnerability.Title,
           IsVulnerability: true,
-          References: vulnerability.References[0]
+          PrimaryURL: vulnerability.PrimaryURL
         } as NormalizedResultForDataTable);
       });
     }
