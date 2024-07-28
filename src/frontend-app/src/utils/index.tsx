@@ -471,8 +471,7 @@ function mapMisconfigurationResults(results: CommonResult[]): NormalizedResultFo
             Severity: misconfiguration.Severity,
             Title: misconfiguration.Title,
             Type: misconfiguration.Type,
-            Message: misconfiguration.Message,
-            References: misconfiguration.References[0]
+            Message: misconfiguration.Message
           } as NormalizedResultForDataTable);
         });
       }
