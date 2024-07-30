@@ -156,6 +156,13 @@ const Misconfigurations: React.FC<MisconfigurationsProps> = ({ result }) => {
       sorter: (a: NormalizedResultForDataTable, b: NormalizedResultForDataTable) => localeCompare(a.Message, b.Message),
       sortDirections: ["descend", "ascend"],
     },
+    {
+      title: 'Solution / Result',
+      dataIndex: 'PrimaryURL',
+      key: 'PrimaryURL',
+      width: '15%',
+      render: (text: string) => <a href={text} target="_blank" rel="noopener noreferrer">{text}</a>
+    },
   ];
 
   return (
