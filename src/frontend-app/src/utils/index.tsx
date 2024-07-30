@@ -471,7 +471,8 @@ function mapMisconfigurationResults(results: CommonResult[]): NormalizedResultFo
             Severity: misconfiguration.Severity,
             Title: misconfiguration.Title,
             Type: misconfiguration.Type,
-            Message: misconfiguration.Message
+            Message: misconfiguration.Message,
+            PrimaryURL: vulnerability.PrimaryURL
           } as NormalizedResultForDataTable);
         });
       }
